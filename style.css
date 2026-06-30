@@ -524,3 +524,30 @@ padding:70px 20px;
 }
 
 }
+/* Floating WhatsApp Button */
+
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+z-index:999;
+transition:0.3s;
+}
+
+.whatsapp-float img{
+width:60px;
+height:60px;
+border-radius:50%;
+box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+}
+
+.btn-lg{
+padding:15px 35px;
+border-radius:50px;
+font-size:18px;
+font-weight:600;
+}
