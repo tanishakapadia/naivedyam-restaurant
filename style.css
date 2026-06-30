@@ -204,3 +204,323 @@ font-size:15px;
 color:#ccc;
 
 }
+/* ==========================
+   ABOUT SECTION
+========================== */
+
+.about{
+padding:100px 0;
+background:#111;
+}
+
+.section-title{
+color:#D4AF37;
+font-weight:600;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+
+.about h2{
+margin:20px 0;
+font-weight:700;
+}
+
+.about p{
+color:#cfcfcf;
+line-height:1.9;
+}
+
+.about img{
+transition:.5s;
+border-radius:20px;
+}
+
+.about img:hover{
+transform:scale(1.04);
+}
+
+/* ==========================
+FEATURED DISHES
+========================== */
+
+.featured{
+padding:100px 0;
+background:#0d0d0d;
+}
+
+.dish-card{
+
+background:#181818;
+
+border-radius:18px;
+
+overflow:hidden;
+
+transition:.4s;
+
+box-shadow:0 20px 50px rgba(0,0,0,.4);
+
+}
+
+.dish-card img{
+
+height:250px;
+
+width:100%;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.dish-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+.dish-card:hover img{
+
+transform:scale(1.1);
+
+}
+
+.dish-card h4{
+
+color:#D4AF37;
+
+margin-bottom:15px;
+
+}
+
+.dish-card p{
+
+color:#ddd;
+
+}
+
+/* ==========================
+GALLERY
+========================== */
+
+.gallery{
+
+background:#111;
+
+padding:100px 0;
+
+}
+
+.gallery-img{
+
+height:280px;
+
+width:100%;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.5s;
+
+}
+
+.gallery-img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 20px 50px rgba(212,175,55,.35);
+
+}
+
+/* ==========================
+WHY US
+========================== */
+
+.why-us{
+
+padding:100px 0;
+
+}
+
+.why-us h4{
+
+margin:20px 0;
+
+color:#D4AF37;
+
+}
+
+.why-us p{
+
+color:#ddd;
+
+}
+
+/* ==========================
+VISIT
+========================== */
+
+.visit-preview{
+
+padding:100px 0;
+
+background:#111;
+
+}
+
+.visit-preview img{
+
+border-radius:20px;
+
+transition:.5s;
+
+}
+
+.visit-preview img:hover{
+
+transform:scale(1.04);
+
+}
+
+/* ==========================
+REVIEWS
+========================== */
+
+.review-card{
+
+background:#1b1b1b;
+
+transition:.4s;
+
+height:100%;
+
+border-radius:20px;
+
+}
+
+.review-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.review-card h5{
+
+color:#FFD700;
+
+}
+
+/* ==========================
+INSTAGRAM
+========================== */
+
+.instagram{
+
+padding:100px 0;
+
+}
+
+/* ==========================
+FOOTER
+========================== */
+
+.footer{
+
+background:#000;
+
+}
+
+.footer h3,
+.footer h5{
+
+color:#D4AF37;
+
+}
+
+.footer p{
+
+color:#bbb;
+
+line-height:1.8;
+
+}
+
+hr{
+
+border-color:#333;
+
+}
+
+/* ==========================
+RESPONSIVE
+========================== */
+
+@media(max-width:991px){
+
+.hero-content h1{
+
+font-size:48px;
+
+}
+
+.stats{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.hero{
+
+height:auto;
+
+padding:150px 0;
+
+}
+
+.navbar{
+
+padding:10px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-content h1{
+
+font-size:36px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+.btn-warning,
+.btn-outline-light{
+
+width:100%;
+margin-bottom:15px;
+
+}
+
+.about,
+.featured,
+.gallery,
+.why-us,
+.visit-preview,
+.reviews,
+.instagram{
+
+padding:70px 20px;
+
+}
+
+}
